@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mediapipe Holistic Continuous</title>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/holistic/holistic.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+  <style>
+    body {display: flex; flex-direction: column; justify-content: center; align-items: center;}
+    canvas { position: absolute; top: 0; left: 0; margin-top: 80px; margin-left: 300px; margin-right: auto;}
+    video { position: absolute; visibility: hidden; }
+  </style>
+</head>
+<body>
+  <h1>Pose Correction</h1>
+  <div>
+    <video id="input_video" autoplay muted playsinline></video>
+    <canvas id="output_canvas"></canvas>
+  </div>
+  <script src="calfraise.js"></script>
+</body>
+</html>
