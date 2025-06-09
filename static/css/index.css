@@ -1,0 +1,41 @@
+*{
+    text-align: center;
+}
+.main-upper, .main-lower, .main-core, .main-full, .main-yoga{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#pushupImg, #pullupImg, #dipsImg, #benchpressImg, #squatImg, #lungesImg, #deadliftImg, #calfraisesImg, #plankImg, #legraisesImg, #highkneeImg, #warriorImg, #treeImg, #bicycleCImg{
+    width: 300px;
+    height: 200px;
+}
+.div1, .div2, .div3, .div4{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 300px;
+    height: 50px;
+    box-shadow: 1mm 1mm 1mm;
+    border-radius: 2mm;
+    border: none;
+    background-color: #d0d0f7;
+    
+}
+button:hover{
+    background-color: rgb(221, 210, 210);
+    box-shadow: 1mm 2mm 1mm;
+}
+img{
+    object-fit: cover;
+}
+h2{
+    text-align: center;
+    margin-bottom: 0;
+}
+h3{
+    margin-top: 50px;
+}
